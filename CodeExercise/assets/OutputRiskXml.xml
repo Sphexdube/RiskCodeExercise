@@ -1,0 +1,63 @@
+<Rating>
+	<!-- Retrieve this UID attribute on the GLASS_POLICY_BINDER node  -->
+	<Policy Id="3d5bd1d9-2827-4155-bfe3-fc9f78bd9602">
+		<Glass>  
+			<!-- Retrieve this from the SI attribute on the GLASS node  -->
+			<SUM_INSURED>15000.0000</SUM_INSURED>
+			<!-- Retrieve this from the BASIS_COVER attribute on the GLASS node  -->
+			<BASIS_COVER>2</BASIS_COVER>
+			<!-- Retrieve this from the AGREED_RATE attribute on the GLASS node  -->
+			<AGREED_RATE>7.480500</AGREED_RATE>
+			<!-- Retrieve this from the GLASS_DESC attribute on the GLASS node  -->
+			<GLASS_DESC>4</GLASS_DESC>
+			<!-- Retrieve this from the LIMIT_OF_INDEMNITY attribute on the EXTENSION node where the RATING_SECTION node = "EBPGXACPC" -->
+			<CPC_SUM_INSURED>10000</CPC_SUM_INSURED>
+			<!-- Retrieve this from the PREMIUM attribute on the EXTENSION node where the RATING_SECTION node ="EBPGXACPC" -->
+			<CPC_PREMIUM>299.22</CPC_PREMIUM>
+			<!-- Retrieve this from the LIMIT_OF_INDEMNITY attribute on the EXTENSION node where the RATING_SECTION node = "EBPGXRS" -->
+			<RS_SUM_INSURED>10000</RS_SUM_INSURED>
+			<!-- Retrieve this from the PREMIUM attribute on the EXTENSION node where the RATING_SECTION node ="EBPGXRS" -->
+			<RS_PREMIUM>299.22</RS_PREMIUM>	  
+			<!-- Retrieve this from the LIMIT_OF_INDEMNITY attribute on the EXTENSION node where the RATING_SECTION node = "EBPGXSR" -->
+			<SR_SUM_INSURED>25</SR_SUM_INSURED>
+			<!-- Retrieve this from the PREMIUM attribute on the EXTENSION node where the RATING_SECTION node ="EBPGXSR" -->
+			<SR_PREMIUM>224.41</SR_PREMIUM>
+		</Glass>
+		<!-- Loop through the GLASS_OUTPUT nodes -->
+		<Glass_Outputs>
+			<!-- Retrieve this id from the UID attribute on the GLASS_OUTPUT node  -->
+			<Glass_Output id="8eee0b5d-7e02-43e6-88ea-d7b3fea621ab">
+				<!-- Retrieve this from the RISK_RATING_SECTION attribute on the GLASS_OUTPUT node -->
+				<RISK_RATING_SECTION>EBGLAMAXG</RISK_RATING_SECTION>
+				<!-- Retrieve this from the SUM_INSURED attribute on the GLASS_OUTPUT node -->
+				<SUM_INSURED>0.0000</SUM_INSURED>
+				<!-- Retrieve this from the PREMIUM attribute on the GLASS_OUTPUT node -->
+				<PREMIUM>0.0000</PREMIUM>
+			</Glass_Output>
+			<!-- Same comments as above  -->
+			<Glass_Output id="538ef5bd-dc9f-436e-8665-77b1a0ff488f">
+				<RISK_RATING_SECTION>EBPG</RISK_RATING_SECTION>
+				<SUM_INSURED>13043.0000</SUM_INSURED>
+				<PREMIUM>780.5700</PREMIUM>
+			</Glass_Output>
+			<!-- Same comments as above  -->
+			<Glass_Output id="daea29fb-93cc-4e48-8776-ec9507d9b789">
+				<RISK_RATING_SECTION>EBPGXACPC</RISK_RATING_SECTION>
+				<SUM_INSURED>86957.0000</SUM_INSURED>
+				<PREMIUM>869.5652</PREMIUM>
+			</Glass_Output>
+			<!-- Same comments as above  -->
+			<Glass_Output id="07a93e15-cccc-4e6f-b30b-4047cfae761d">
+				<RISK_RATING_SECTION>EBPGXRS</RISK_RATING_SECTION>
+				<SUM_INSURED>0.0000</SUM_INSURED>
+				<PREMIUM>869.5652</PREMIUM>
+			</Glass_Output>
+			<!-- Same comments as above  -->
+			<Glass_Output id="8ef79313-a754-44e4-8185-c4d2f277b431">
+				<RISK_RATING_SECTION>EBPGXSR</RISK_RATING_SECTION>
+				<SUM_INSURED>0.0000</SUM_INSURED>
+				<PREMIUM>869.5652</PREMIUM>
+			</Glass_Output>
+		</Glass_Outputs>
+	</Policy>
+</Rating>

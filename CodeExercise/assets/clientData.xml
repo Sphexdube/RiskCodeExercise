@@ -1,0 +1,41 @@
+<root>
+	<clients>
+		<client>			
+			<code>IQBALTRADING</code>
+			<name>Iqbal Trading</name>
+			<productName>Commercial Annual</productName>
+			<risks>
+				<risk>
+					<riskSequence>5</riskSequence>
+					<riskName>Glass</riskName>
+					<sumInsured>5000000</sumInsured>
+					<premium>120.56</premium>
+				</risk>
+				<risk>
+					<riskSequence>2</riskSequence>
+					<riskName>Motor Specified</riskName>
+					<sumInsured>1850000</sumInsured>
+					<premium>510.00</premium>
+				</risk>
+				<risk>
+					<riskSequence>3</riskSequence>
+					<riskName>Motor Specified</riskName>
+					<sumInsured>850000</sumInsured>
+					<premium>1100.00</premium>
+				</risk>
+				<risk>
+					<riskSequence>1</riskSequence>
+					<riskName>Employers Liability</riskName>
+					<sumInsured>7400000</sumInsured>
+					<premium>53.00</premium>
+				</risk>
+				<risk>
+					<riskSequence>4</riskSequence>
+					<riskName>Public Liability</riskName>
+					<sumInsured>5000000</sumInsured>
+					<premium>69.00</premium>
+				</risk>
+			</risks>
+		</client>
+	</clients>
+</root>

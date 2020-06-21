@@ -1,0 +1,165 @@
+<DocumentMessage DocTemplate="SSSCHSACAE" ProductCode="ECARS" OutputType="pdf" LanguageId="1" FileType="New Business Quotation">
+	<ToAddressList>
+		<string>someone@somewhere.co.za</string>
+	</ToAddressList>
+	<DocumentProviderId>3</DocumentProviderId>
+	<Subject>JHB/ECARSQ/00000001</Subject>
+	<Document>
+		<insuranceFile>
+			<ClientId>1</ClientId>
+			<InsuranceFileType>New Business Quotation</InsuranceFileType>
+			<insuranceFileTypeId>QUOTE</insuranceFileTypeId>
+			<versionNumber>1</versionNumber>
+			<insuredPartyType>Corporate Client</insuredPartyType>
+			<insuredPartyTypeCode>CC</insuredPartyTypeCode>
+			<insuredName>Iqbal Trading</insuredName>
+			<insuredClientCode>IQBALTRADING</insuredClientCode>
+			<correspondenceAddress>
+				<line1>P O Box 22</line1>
+				<line2 />
+				<line3>Johannesburg</line3>
+				<line4>Parktown/</line4>
+				<code>2012</code>
+				<country>South Africa</country>
+			</correspondenceAddress>
+			<insuredTelephone>(035) 150-0000</insuredTelephone>
+			<insuredCellphone />
+			<insuredFax />
+			<insuredEmail>iqbaltrading@email.com</insuredEmail>
+			<insurerCompanyName>THE HOLLARD INSURANCE COMPANY LIMITED</insurerCompanyName>
+			<insurerCompanyVatNumber>4450117405</insurerCompanyVatNumber>
+			<insurerCompanyRegistrationNumber>1952/003004/06</insurerCompanyRegistrationNumber>
+			<insurerAddress>
+				<line1>Hollard Arcadia Campus</line1>
+				<line2>22 Oxford Road</line2>
+				<line3>Parktown</line3>
+				<line4>Gauteng</line4>
+				<code>2193</code>
+				<country>South Africa</country>
+			</insurerAddress>
+			<insurerPostalAddress>
+				<line1 />
+				<line2 />
+				<line3 />
+				<line4 />
+				<code />
+				<country>South Africa</country>
+			</insurerPostalAddress>
+			<insurerTelephone>(011)351-5000</insurerTelephone>
+			<insurerFax>(011)351-8012</insurerFax>
+			<insurerEmail />
+			<insurerDescription>Johannesburg</insurerDescription>
+			<product>
+				<productSections>
+					<productSection>
+						<sectionTaken>true</sectionTaken>
+						<periodAmount>560399.4000</periodAmount>
+						<transactionAmount>560399.4000</transactionAmount>
+						<periodTaxAmount>73095.5700</periodTaxAmount>
+						<transactionTaxAmount>73095.5700</transactionTaxAmount>
+						<endorsements />
+						<notes />
+						<sectionId>40</sectionId>
+						<sectionName>Property Damage</sectionName>
+					</productSection>
+				</productSections>
+				<fees>
+					<fee>
+						<code>PFees</code>
+						<description>Policy (Broker) fees</description>
+						<periodAmount>0.0000</periodAmount>
+						<transactionAmount>0.0000</transactionAmount>
+						<periodAmountExcludingLevies>0.0000</periodAmountExcludingLevies>
+						<transactionAmountExcludingLevies>0.0000</transactionAmountExcludingLevies>
+					</fee>
+					<fee>
+						<code>CORPFees</code>
+						<description>Corporate Fees</description>
+						<periodAmount>0.0000</periodAmount>
+						<transactionAmount>0.0000</transactionAmount>
+						<periodAmountExcludingLevies>0.0000</periodAmountExcludingLevies>
+						<transactionAmountExcludingLevies>0.0000</transactionAmountExcludingLevies>
+					</fee>
+				</fees>
+				<totalPeriodAmount>673819.4000</totalPeriodAmount>
+				<totalTransactionAmount>673819.4000</totalTransactionAmount>
+				<totalCost>673819.4000</totalCost>
+				<policyEndorsements />
+				<notes />
+				<productCode>ECARS</productCode>
+				<productDescription>SPECIFIC - Contractors and Engineering</productDescription>
+				<currencyCode>ZAR</currencyCode>
+				<currency>ZAR</currency>
+				<currencySymbol>R</currencySymbol>
+			</product>
+			<vatNumber />
+			<taxNumber />
+			<companyRegNo>21/20/2001</companyRegNo>
+			<idNumber />
+			<dateOfBirth />
+			<insuredBusinessDescription>FISH</insuredBusinessDescription>
+			<intermediaryName />
+			<intermediaryAgentNumber />
+			<intermediaryVatNumber />
+			<intermediaryFsbNo />
+			<intermediaryAddress>
+				<line1 />
+				<line2 />
+				<line3 />
+				<line4 />
+				<code />
+				<country />
+			</intermediaryAddress>
+			<intermediaryTelephone />
+			<intermediaryCellphone />
+			<intermediaryFax />
+			<intermediaryEmail />
+			<renewalDate>2019-06-14T00:00:00</renewalDate>
+			<typeOfContract>Annual</typeOfContract>
+			<effectiveDate>2018-06-14T00:00:00</effectiveDate>
+			<finalSettlementDate>2018-07-14T00:00:00</finalSettlementDate>
+			<anniversaryDate>2019-06-14T00:00:00</anniversaryDate>
+			<signedDate>2018-07-02T00:00:00+02:00</signedDate>
+			<expiryDate>2019-06-13T00:00:00</expiryDate>
+			<paymentBreakdowns />
+			<guarantee />
+			<receipt />
+			<policyStatements />
+			<hollardBank>First National Bank</hollardBank>
+			<bankAccountNumber>62034267238</bankAccountNumber>
+			<bankBranchCode>255005</bankBranchCode>
+			<bankBranchName>Corporate Branch</bankBranchName>
+			<paymentTerm>Cash</paymentTerm>
+			<insuranceRef>JHB/ECARSQ/00000001</insuranceRef>
+			<insuranceAlternateRef />
+			<insuranceBranchCode>JHB</insuranceBranchCode>
+			<commisionExcluding>0.0000</commisionExcluding>
+			<totalTax>0.0000</totalTax>
+			<totalCommission>0.0000</totalCommission>
+			<totalSasriaCommission>0.0000</totalSasriaCommission>
+			<totalSasriaBrokerCommission>0.0000</totalSasriaBrokerCommission>
+			<totalSasriaInsurerCommission>0.0000</totalSasriaInsurerCommission>
+			<averageCommission>0.0000</averageCommission>
+			<monthlyStampDuty>0.0000</monthlyStampDuty>
+			<firstStampDuty>250.0000</firstStampDuty>
+			<monthlyLevy>0.0000</monthlyLevy>
+			<firstLevy>5859.3000</firstLevy>
+			<monthlyTax>87889.4800</monthlyTax>
+			<vatPercentage>15.0000</vatPercentage>
+			<firstTax>87889.4800</firstTax>
+			<marketerName />
+			<insuredLastName>Iqbal Trading</insuredLastName>
+			<masterReference />
+			<NamAccountNumber />
+			<NamAccountHolderName />
+			<NamBankName />
+			<NamBranchCode />
+			<userNameSignature>Some One</userNameSignature>
+			<userNameEmail>someone@somewhere.co.za</userNameEmail>
+			<collectionFrequency>Monthly</collectionFrequency>
+			<MTAReason />
+			<policyInceptionDate>2018-06-14T00:00:00</policyInceptionDate>
+			<insuranceFileKey>4612346</insuranceFileKey>
+		</insuranceFile>
+	</Document>
+</DocumentMessage>
